@@ -107,12 +107,12 @@ html,body{
     background-position: center;
     background-size: cover;
     border: 5px solid #fff;
-    top: 25%;
+    top: 25vh;
     left: 8%;
 }
 #text{
     position: absolute;
-    top: 39%;
+    top: 39vh;
     left: 64%;
 }
 #text h1{
