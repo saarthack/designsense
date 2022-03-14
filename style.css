@@ -34,5 +34,41 @@ html,body{
 }
 #text1{
     font-size: 50px;
-    margin: 20px;
+    margin: 20px
+#page1{
+    height: 100vh;
+    background-image: url(https://images.unsplash.com/photo-1495462911434-be47104d70fa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1935&q=80);
+    background-size: cover;
+
+    background-position: center;
+}
+#page1>h1{
+    font-size: 120px;
+    font-family: montserrat;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #dadada;
+}
+#image{
+    background-image: url(https://images.unsplash.com/photo-1499372076272-6b5c2d2bb391?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1935&q=80);
+    height: 360px;
+    width: 260px;
+    position: absolute;
+    background-position: center;
+    background-size: cover;
+    border: 5px solid #fff;
+    top: 25%;
+    left: 8%;
+}
+#text{
+    position: absolute;
+    top: 39%;
+    left: 64%;
+}
+#text h1{
+    font-size: 40px;
+    text-decoration: underline;
+    font-family: montserrat;
+    text-transform: uppercase;
+    color: #dadada;
+    font-weight: 400;
 }
